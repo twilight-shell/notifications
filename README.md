@@ -1,5 +1,7 @@
 # twilight-shell/notifications
 
+[![ci](https://github.com/twilight-shell/notifications/actions/workflows/ci.yml/badge.svg)](https://github.com/twilight-shell/notifications/actions/workflows/ci.yml)
+
 The notification daemon of the [twilight-shell](https://github.com/twilight-shell)
 organization, and the cards it shows: stickers in the top-right corner under the
 bar. New cards fly in from the right and the rest slide down to make room, a fuse
@@ -44,6 +46,10 @@ Notifications {
 |---|---|
 | `outputName` | The output to show on. |
 | `avoid` | Screen y down to which something else covers the top of the column, `0` when nothing does. The cards move below it. |
+
+## Contributing
+
+Contributions are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). Agents and the like: [AGENTS.md](AGENTS.md).
 
 ## License
 
